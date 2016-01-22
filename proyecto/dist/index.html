@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mi pagina</title>
+
+        <style>/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */.content-text-image .container picture img,.header{width:100%}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}article,aside,button,div,h1,h2,h3,h4,h5,h6,header,li,nav,ol,section,ul{margin:0;padding:0}body{margin:0;font-family:Lato;font-size:16px}.content .container .content-block-title,.header{font-family:Montserrat}.header{background-color:#212121;color:#fafafa;height:64px;position:fixed;top:0;left:0;z-index:10;display:flex;flex-direction:column}.header--light{background-color:#fafafa;color:#212121}.header-btn-nav,.header-menu-navbar{background-color:#212121}.header-mobile{display:flex;justify-content:space-between}.header-logo{order:1;margin-left:1rem;padding:0;line-height:64px}.header-btn-nav{display:block;order:2;border:0;border-radius:.4em;color:#fafafa;padding:0;margin:1em}.header-menu-list{list-style-type:none;height:0;overflow:hidden;transition:height .3s ease}.header-menu-list--show{height:280px}.header-menu-list-item a{text-decoration:none;color:#fafafa;width:100%;padding:1.5em;display:block}@media (min-width:768px){.header{flex-direction:row;flex-wrap:wrap;justify-content:space-between;height:80px;transition:all .3s ease;font-size:1.2em;overflow:visible}.header-btn-nav{display:none}.header-logo{margin-left:2rem;order:1}.header-menu-navbar{order:2}.header-menu-list{height:100%}.header-menu-list-item{display:inline-block}}.content{margin:64px 0 0}.content .container .content-features{padding:0}.content .container .content-block{padding:1em;border-left:6px solid #dedede;border-bottom:1px solid #dedede}.content .container .content-block:hover{background-color:#dedede}.content .container .content-block:nth-child(1){border-left-color:green}.content .container .content-block:nth-child(2){border-left-color:red}.content .container .content-block:nth-child(3){border-left-color:#00f}.content .container .content-block:nth-child(4){border-left-color:orange}.content-text-image .container picture{margin:0 auto}@media (min-width:786px){.container{width:768px;margin:0 auto}.content-features .container{display:flex;justify-content:space-between}.content-text-image .container{display:flex}.content-text-image .container picture{margin:1em;order:1;width:30%}.content-text-image .container p{order:2;width:70%}}.video-container{position:relative;height:0;padding:25%}.video-container embed,.video-container iframe,.video-container object,.video-container video{position:absolute;top:0;left:0;width:100%;height:100%}</style>
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-mobile">
+                <h1 class="header-logo">Logo</h1>
+                <button type="button" id="btnMenu" class="header-btn-nav"><i class="fa fa-bars"></i></button>
+            </div>
+            <nav class="header-menu-navbar">
+                <ul id="navBarMenu" class="header-menu-list">
+                    <li class="header-menu-list-item"><a href="#">Inicio</a></li><!--
+                 --><li class="header-menu-list-item"><a href="#">Acerca de</a></li><!--
+                 --><li class="header-menu-list-item"><a href="#">Blog</a></li><!--
+                 --><li class="header-menu-list-item"><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header><!-- /header -->
+        <article class="content">
+            <section class="content-text">
+                <div class="container">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/zmAdcwll4Ok" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <section class="content-features">
+                <div class="container">
+                    <div class="content-block">
+                        <h3 class="content-block-title">Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="content-block">
+                        <h3 class="content-block-title">Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="content-block">
+                        <h3 class="content-block-title">Feature 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="content-block">
+                        <h3 class="content-block-title">Feature 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-text content-text-image">
+                <div class="container">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/img01-desktop.jpg">
+                        <source media="(min-width: 320px)" srcset="img/img01-mobile-retina.jpg 2x">
+                        <img src="img/img01-mobile.jpg">
+                    </picture>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </section>
+        </article>
+
+        <script type="text/javascript">!function e(t,n,o){function r(l,s){if(!n[l]){if(!t[l]){var a="function"==typeof require&&require;if(!s&&a)return a(l,!0);if(i)return i(l,!0);var c=new Error("Cannot find module '"+l+"'");throw c.code="MODULE_NOT_FOUND",c}var u=n[l]={exports:{}};t[l][0].call(u.exports,function(e){var n=t[l][1][e];return r(n?n:e)},u,u.exports,e,t,n,o)}return n[l].exports}for(var i="function"==typeof require&&require,l=0;l<o.length;l++)r(o[l]);return r}({1:[function(e,t,n){var o=function(e){var t=document.createElement("link");t.rel="stylesheet",t.href=e,document.head.appendChild(t)};t.exports=o},{}],2:[function(e,t,n){var o=function(){window.scrollY>=200?headerElem.classList.toggle(".header--light"):headerElem.classList.toggle(".header--light")};t.exports=o},{}],3:[function(e,t,n){!function(){function t(){function e(){o.classList.toggle("header-menu-list--show")}n("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"),n("https://fonts.googleapis.com/css?family=Montserrat|Lato");var t=document.getElementById("btnMenu"),o=document.getElementById("navBarMenu");t.addEventListener("click",e)}var n=e("./lib/loadCss"),o=e("./lib/onScroll"),r=document.querySelector(".header");r.addEventListener("scroll",o),document.addEventListener("DOMContentLoaded",t)}()},{"./lib/loadCss":1,"./lib/onScroll":2}]},{},[3]);</script>
+
+    </body>
+</html>
